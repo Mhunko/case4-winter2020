@@ -1,0 +1,102 @@
+﻿@charset "utf-8";/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Maksym Hunko
+   Date:   01/30/2020
+   
+   Filename: lake_styles.css
+
+*/
+@font-face {
+    font-family: CacChampagne;
+    src: url(cac_champagne.woff);
+}
+
+@font-face {
+    font-family: DobkinPlain;
+    src: url(DobkinPlain.woff);
+}
+
+
+
+html{
+    background-color: #d4df79;
+}
+
+body{
+    background-color: #fffdf2;
+    font-family: sans-serif;
+}
+body>section>h1{
+    font-family: CacChampagne, cursive;
+    padding-left: 0.3em;
+    font-size: 3em;
+    font-weight: normal;
+
+}
+body>header{
+    background-color: #845ead;
+}
+body>section#rightcol{
+    background-color: #ecd3ff;
+    margin-right: 0px;
+    bottom: 100px;
+}
+body>section#leftcol{
+    margin-right: 0px;
+}
+
+body>section>aside:first-of-type{
+    background-color: #dc8f86;
+}
+body>section>aside:last-of-type{
+    padding-left: 1em;
+    background-color: #dcc276;
+}
+body>section>aside>h1 {
+    text-align: center;
+}
+body>footer{
+    background-color: #6c6c6c;
+    text-align: center;
+}
+
+body>section>p{
+    padding-left: 2em;
+}
+
+#rightcol>nav>h2{
+    font-family: CacChampagne, cursive;
+    font-size: 2em;
+    padding-left: 1.5em;
+}
+
+body>header>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 0.7em;
+    padding-top: 0.7em;
+}
+#rightcol>nav>ul{
+    list-style: none;
+}
+
+#rightcol>nav>ul>li>a{
+    text-decoration: none;
+    color: #6a646c;
+}
+
+#rightcol>blockquote{
+    quotes: "'" "'";
+    color: #775ab4;
+}
+
+#leftcol>aside>h2{
+    font-weight: normal;
+}
+#leftcol>aside:first-of-type>ul{
+    list-style-type: square;
+}
